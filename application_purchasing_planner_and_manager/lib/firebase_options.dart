@@ -45,7 +45,33 @@ class DefaultFirebaseOptions {
         );
     }
   }
+/*
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyBwL0Qjuvrj1bXPRyJsdfDW-j6Z5cBbZBQ',
+    appId: '1:222107780521:android:7c9a40dffa2359358270b8',
+    messagingSenderId: '222107780521',
+    projectId: 'personalshopper-c98f1',
+    storageBucket: 'personalshopper-c98f1.appspot.com',
+  );
 
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBFc6PMLIQ5tZ6oOlkrntzXOGxqy1syvcU',
+    appId: '1:222107780521:ios:ef4424d19ce62a8d8270b8',
+    messagingSenderId: '222107780521',
+    projectId: 'personalshopper-c98f1',
+    storageBucket: 'personalshopper-c98f1.appspot.com',
+    iosBundleId: 'com.example.applicationPurchasingPlannerAndManager',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBFc6PMLIQ5tZ6oOlkrntzXOGxqy1syvcU',
+    appId: '1:222107780521:ios:ef4424d19ce62a8d8270b8',
+    messagingSenderId: '222107780521',
+    projectId: 'personalshopper-c98f1',
+    storageBucket: 'personalshopper-c98f1.appspot.com',
+    iosBundleId: 'com.example.applicationPurchasingPlannerAndManager',
+  );
+  */
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBwL0Qjuvrj1bXPRyJsdfDW-j6Z5cBbZBQ',
     appId: '1:222107780521:android:7c9a40dffa2359358270b8',

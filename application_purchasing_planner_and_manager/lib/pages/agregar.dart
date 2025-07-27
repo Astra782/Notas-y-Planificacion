@@ -1,5 +1,5 @@
 //import 'dart:ffi';
-import 'package:application_purchasing_planner_and_manager/pages/inicio.dart';
+import 'package:application_purchasing_planner_and_manager/pages/home.dart';
 import 'package:application_purchasing_planner_and_manager/widgets/iconbutton.dart';
 import 'package:flutter/material.dart';
 import 'package:application_purchasing_planner_and_manager/backend/models.dart';
@@ -121,7 +121,7 @@ class _AgregarNotaState extends State<AgregarNota> {
             _titleTextController.text != widget.note!.titulo ||
         _noteTextController.text != widget.note!.descripcion) {
       _updateNote();
-      Get.offAll(() => Inicio());
+      Get.offAll(() => Home_Page());
     } else {
       Get.snackbar(
         widget.estado ? "Not Updated" : "Required*",
